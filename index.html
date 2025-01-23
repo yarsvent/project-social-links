@@ -5,30 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="main.css">
+
   <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+  <main>
+    <div class="card-container">
+      <div class="profile-card" aria-labelledby="my-name">
+        <img src="assets/images/yorik.jpg" alt="My picture" width="88" height="88">
+        <h1 id="profile-name">Unknown Person</h1>
+        <p id="profile-location">Olympus Mons, Mars</p>
+        <q>Game dev and Front-end developer wannabe.</q>
+        <a class="profile-button" href="https://github.com/yarsvent" target="_blank">GitHub</a>
+        <a class="profile-button" href="https://www.frontendmentor.io/profile/yarsvent" target="_blank">Frontend Mentor</a>
+        <a class="profile-button" href="#" target="_blank">Some other website</a>
+        <a class="profile-button" href="#" target="_blank">Some other website 2</a>
+        <a class="profile-button" href="#" target="_blank">Some other website 3</a>
+      </div>
+    </div>
+  </main>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
